@@ -1,2 +1,5 @@
 # Analysis-of-the-Berlin-rental-market
-At first I took a web-site with rental advertisements in Berlin (https://www.immobilienscout24.de/Suche/S-T/Wohnung-Miete/Berlin/Berlin), parsed it and got all the current advertisements. Then I analyzed the data, made some plots. Then the Ridge linear model is built to forecast the monthly rent of an apartment by other indicators. Then I save all the new advertisements to SQL database where I have advertisements from previous days.
+At first I took a web-site with rental advertisements in Berlin (https://www.immobilienscout24.de/Suche/de/berlin/berlin/wohnung-mieten), parsed it and got all the current advertisements. Then all the new advertisements are saved to SQL database. With that 2 optional arguments can be used:
+	- path - the path to db file where to save the data
+	- if_exists - to append to ads stored from previous days or to replace th data
+Then I analyzed the data, built plots. Then the Ridge linear model was built to forecast the monthly rent of an apartment by other indicators.
