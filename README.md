@@ -4,4 +4,4 @@ At first I took a web-site with rental advertisements in Berlin (https://www.imm
 --path - the path to db file where to save the data (default = "immobilienscout24.db")
 --if_exists - to append data to ads stored from previous days or to replace the data in database
 ```
-Then I analyzed the data, built plots. Then the Ridge linear model was built to forecast the monthly rent of an apartment by other indicators.
+Then I have analyzed the data and have built plots in ```Berlin_rental_market_analysis.ipynb```. Then the Ridge linear model was built there to forecast the monthly rent of an apartment by other indicators.
